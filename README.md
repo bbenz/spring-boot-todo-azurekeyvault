@@ -4,6 +4,7 @@ A simple Todo list application using Spring Boot with the following options:
 
 - Spring JPA and MySQL for data persistence
 - Thymeleaf templae for the rendering.
+- Working on using Azure Key Vault for Authentication (this is a work in progress, the current app uses application.properties)
 
 To build and run the sample from a fresh clone of this repo:
 
@@ -16,7 +17,7 @@ To build and run the sample from a fresh clone of this repo:
 ## Build and run the sample
 
 1. `mvnw package`
-3. `java -jar target/TodoDemo-0.0.1-SNAPSHOT.jar`
+3. `java -jar target/TodoDemo-0.0.1-SNAPSHOT.war`
 3. Open a web browser to http://localhost:8080
 
 As you add and update tasks in the app you can verify the changes in the database through the MySQL console using simple statements like 
